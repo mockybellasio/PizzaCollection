@@ -11,15 +11,7 @@ public class Main {
 		System.out.println(pizzanew);
 		
 			
-		PizzaEmDao pizzaDao = new PizzaEmDao();
 		
-		System.out.println(pizzaDao);
-		
-		
-		Pizza pizza = null;
-		pizzaDao.deletePizza(pizza.getCode());
-		
-		System.out.println(pizzaDao.toString());
 		
 	}
 
